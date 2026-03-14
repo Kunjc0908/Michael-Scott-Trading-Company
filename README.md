@@ -1,6 +1,9 @@
 Welcome to the Michael Scott Trading Company. While most retail trading scripts focus entirely on chasing daily price noise and reckless upside, we took the opposite approach. We built an algorithmic trading engine that prioritizes capital preservation and risk adjusted returns over lucky, unhedged profits.
+
 At its core, the engine is powered by a 15 expert PyTorch Deep Learning ensemble. Instead of forcing the neural network to guess tomorrow's volatile price, we trained it to forecast 5 day macro momentum shifts. The system ingests raw Bitcoin time series data from 2018 to 2023 and strips away the non stationarity, transforming raw noise into bounded mathematical oscillators like MACD Histograms, RSI, and OBV Z-scores. To prevent recency bias where an AI panics over a single bad month, we implemented an annual expanding window cross validation architecture. This forces the model to retain its long term memory of broader market regimes.
+
 However, the real magic happens in our custom, Object Oriented backtesting engine. We engineered strict filters, including a 50 day SMA macro shield and an ADX momentum requirement, which completely blocked the Model from trading during sideways chop or macro downtrends. Combined with dynamic ATR based stop-losses that automatically tighten during high volatility, the architecture is built for survival.
+
 While the benchmark Buy & Hold strategy suffered a devastating -75% drawdown during the 2022 crypto winter, our engine safely moved to cash. Factoring in strict 0.15% exchange fees, the system delivered a 200.87% cumulative return, capped our maximum drawdown at a highly survivable -24.84%, and achieved a 0.94 Sharpe ratio. It isn't a lottery ticket, it is a carefully built model to withstand the market and deliver consistent returns.
 
 
